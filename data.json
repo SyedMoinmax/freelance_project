@@ -1,0 +1,65 @@
+[
+    {
+        "heading":"Fortimo The Golf Residences",
+        "image":"./assets/fortimo_img.webp",
+        "beds":"1-3",
+        "price":"AED 1,390,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"Nakheel Rixos Dubai Islands Residences",
+        "image":"./assets/nakheel_img.webp",
+        "beds":"1-3",
+        "price":"AED 2,600,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"Taraf Terrazzo Residences",
+        "image":"./assets/taraf_tezzaro_img.webp",
+        "beds":"1-3",
+        "price":"AED 9,50,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"Omniyat Anwa Aria",
+        "image":"./assets/omniyat_img.webp",
+        "beds":"Studio, 1-2",
+        "price":"AED 1,450,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"DAMAC Harbour Lights",
+        "image":"./assets/damac_img.webp",
+        "beds":"2-3",
+        "price":"AED 2,600,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"DAMAC Golf Greens",
+        "image":"./assets/damac_golf_imh.webp",
+        "beds":"1-2",
+        "price":"AED 9,84,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"Emaar The Valley Rivana Villas",
+        "image":"./assets/emaar_img.webp",
+        "beds":"3-4 & 5",
+        "price":"AED 2,800,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"Sobha Seahaven Sky Edition",
+        "image":"./assets/sobha_seaheaven_img.webp",
+        "beds":"1-4",
+        "price":"AED 21,000,000",
+        "buttonText":"View More"
+    },
+    {
+        "heading":"South Bay 3",
+        "image":"./assets/south_bay_img.jpg",
+        "beds":"3-4",
+        "price":"AED 32,000,000",
+        "buttonText":"View More"
+    }
+]
