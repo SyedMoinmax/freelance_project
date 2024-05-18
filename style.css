@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -12,6 +13,7 @@
     --navlink-font-family: "Federo", sans-serif;
     --webpage-font-family: "Noto Serif Georgian", serif;
     --webpage-secondary-font-family:"Noto Serif Georgian", serif;
+    --webpage-special-font-family:"Roboto Condensed", sans-serif;
 }
 
 .navbar-nav .nav-link{
@@ -168,11 +170,14 @@
 
 .card .card-body{
     background-color: #212121;
+    padding: 3px 1rem 0 1rem;
 }
 
 .card .card-body p{
     color: #fff;
     margin: 0;
+    font-family: var(--webpage-secondary-font-family);
+    font-size: 13px;
 }
 
 .card .card-btn{
@@ -182,6 +187,63 @@
     font-family: var(--navlink-font-family);
     font-weight: 400;
     padding: 5px 25px 5px 25px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+.card .card-btn:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    color: #fff;
+}
+
+
+.card .card-body .card-text{
+    display: block;
+}
+
+.card .card-body .card-text i{
+    color: #C89838;
+}
 /* #0F0F0FF0 */
+
+
+/* sell property styling */
+
+.sell-properties-section{
+    background-color: #000000f7;
+}
+
+.sell-properties-section .sell-properties-subsection{
+    border: 1px solid #C89838;
+}
+
+.sell-properties-section .text-property-section .property-heading{
+    color: #C89838;
+    border-top: 1px solid #C89838;
+    border-left: 1px solid #C89838;
+}
+
+.sell-properties-section .text-property-section .property-heading h2{
+    font-size: 23px;
+    font-family: var(--webpage-secondary-font-family);
+}
+
+.sell-properties-section .text-property-section .text-section p{
+    color: #fff;
+    font-family: var(--webpage-special-font-family);
+    font-weight: 300;
+}
+
+.sell-properties-section .img-div img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.sell-properties-section .text-property-section .sell-now-btn button{
+    background-color: #C89838;
+    color: #000;
+    padding: 10px 15px 10px 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 25%;
+}
