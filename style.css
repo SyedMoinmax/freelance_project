@@ -327,6 +327,10 @@
 
   .navigation-div p{
     color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
   .navigation-list-items ul li i{
@@ -351,6 +355,10 @@
 
   .connect-text p{
     color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
   .connect-list ul{
@@ -371,6 +379,12 @@
     font-family: var(--navlink-font-family);
   }
 
+  .connect-list .aseel-text{
+    font-family: var(--navlink-font-family);
+    width: 70%;
+    font-size: 14px;
+  }
+
   .custom-input {
     border: 1px solid #C89838;
     background-color: black;
@@ -388,4 +402,24 @@
     background-color: black;
     border: 1px solid #C89838;
     color: #fff;
+  }
+
+  .brands-div li {
+    font-size: 24px;
+    background-color: #050505;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .brands-div ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .brands-div .brands-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
