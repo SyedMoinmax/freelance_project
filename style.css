@@ -247,3 +247,73 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: 25%;
 }
+
+/* img bg section styling */
+
+.img-container {
+    position: relative;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .img-overlay-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay-text {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  /* services styling */
+
+  .services-section{
+    background-color: #000000f7;
+  }
+
+  .services-card{
+    margin: 10px;
+    border: 2px solid #C89838;
+  }
+
+  .services-card img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-card .services-card-body .line-div hr{
+    height: 2px;
+    background-color: #C89838;
+    width: 20%;
+    opacity: 1;
+    margin: 8px 0;
+}
+
+  .services-section .services-text-div .services-text{
+    color: #fff;
+    text-align: center;
+    font-family: var(--navlink-font-family);
+    text-decoration: none;
+  }
+
+  .services-card .services-card-body .services-card-title{
+    color: #fff;
+    margin: 0;
+    font-family: var(--webpage-secondary-font-family);
+    font-size: 18px;
+  }
